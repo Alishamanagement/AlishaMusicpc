@@ -218,7 +218,7 @@ async def play(_, message: Message):
                 ]
             ]
         )
-
+DiamondMusic_Support
         except Exception as e:
             title = "NaN"
             thumb_name = "https://telegra.ph/file/a07fb9996ce91dc0d3397.png"
@@ -283,7 +283,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/AlishaSupport")
+                            url=f"https://t.me/DiamondMusic_Support")
 
                 ]
             ]
