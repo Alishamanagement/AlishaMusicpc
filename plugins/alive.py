@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/894112956b60a2a480a0a.jpg",
+        photo=f"https://telegra.ph/file/ed01eb66315dda77a642a.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━
 
 🖤 ʜᴇʏ, 
@@ -46,7 +46,7 @@ async def start_(client: Client, message: Message):
 
 ┣★
 
-┣★ ᴄʀᴇᴀᴛᴏʀ: [🖤 Bʟᴀᴄᴋ Dɪᴀᴍᴏɴᴅ 🖤](t.me/Diamond_Abhi_RA)
+┣★ ᴄʀᴇᴀᴛᴏʀ: [🖤 ᴅɪᴀᴍᴏɴᴅ ǫᴜᴇᴇɴ 🖤](t.me/Diamond_Abhi_RA)
 
 ┣★
 
@@ -70,7 +70,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/85d60d0b6483b0b709781.jpg",
+        photo=f"https://telegra.ph/file/955c5769b293cad94517c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -86,7 +86,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/85d60d0b6483b0b709781.jpg",
+        photo=f"https://telegra.ph/file/955c5769b293cad94517c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
