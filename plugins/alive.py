@@ -33,25 +33,33 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/e25a3c8589930ac61f39a.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟɪsʜᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
-┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀʙʜɪᴍᴀɴʏᴜ ʀᴀɴᴀᴡᴀᴛ](https://t.me/Venom_hai_hum)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀʟɪsʜᴀ sᴇʀᴠᴇʀ](https://t.me/AlishaSupport)
-┣★ sᴜᴘᴘᴏʀᴛ : [ᴀʟɪsʜᴀ ᴅɪsᴄᴜs](https://t.me/Shayri_Music_Lovers)
-┣★ sᴏᴜʀᴄᴇ › : [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/CandyMusic)
-┗━━━━━━━━━━━━━━━━━┛
+        photo=f"https://telegra.ph/file/894112956b60a2a480a0a.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━
 
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Venom_Hai_Hum) ...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+🖤 ʜᴇʏ, 
+
+      ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...
+
+ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
+
+┏━━━━━━━━━━━━━━┓
+
+┣★
+
+┣★ ᴄʀᴇᴀᴛᴏʀ: [🖤 Bʟᴀᴄᴋ Dɪᴀᴍᴏɴᴅ 🖤](t.me/Diamond_Abhi_RA)
+
+┣★
+
+┗━━━━━━━━━━━━━━┛
+
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/DiamondMusic_Support) ʙᴀʙʏ...
+
+━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/AlishaSupport")
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/DiamondMusic_Support")
                 ]
                 
            ]
@@ -59,10 +67,10 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "Abhimanyu"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/11e9d661349365d75c6bc.jpg",
+        photo="https://telegra.ph/file/85d60d0b6483b0b709781.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -78,13 +86,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/11e9d661349365d75c6bc.jpg",
+        photo=f"https://telegra.ph/file/85d60d0b6483b0b709781.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/CandyMusic")
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/DiamondMusic_Support")
                 ]
             ]
         ),
