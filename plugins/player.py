@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Abhimanyu (@VeNoM_HaI_HuM)",
+        f"Powered By: Diamond Queen",
         (255, 255, 255),
         font=font,
     )
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "QueenAlishaRobot"
+        user.first_name = "DiamondMusic_Robot"
     usar = user
     wew = usar.id
     try:
